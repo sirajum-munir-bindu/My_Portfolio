@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.container_1 ul li{
+    list-style-type: none;
+}
+
+.container_1{
+    height: 600px;
+    width: 1536px;
+    background-color: aquamarine;
+}
+.cover_photo_1{
+    position: fixed;
+    background-image: url(./media/my_cover_photo.png);
+    background-size: cover;
+    height: 600px;
+    width: 1536px;
+    
+}
+
+.social_profile{
+    display: flex;
+    padding-left: 19%;
+    padding-top: 2%;
+}
+
+.facebook_link{
+    font-size: 2rem;
+    padding-right: 15px;
+}
+.Linked_in_link{
+    font-size: 2rem;
+    padding-right: 15px;
+}
+
+.instagram_link{
+    font-size: 2rem;
+    padding-right: 15px;
+}
+
+.fa-brands{
+    background-color: azure;
+    height: 29px;
+    width: 28px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.my_intro{
+    padding-top: 13%;
+    padding-left: 15%;
+}
+
+.color{
+    color: white;
+}
+.first_line{
+    font-size: 1.5rem;
+}
+.Second_line{
+    font-size: 3rem;
+}
+.third_line{
+    font-size: 0.95rem;
+    padding-top: 1.2%
+}
