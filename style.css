@@ -9,16 +9,15 @@
 }
 
 .container_1{
-    height: 600px;
-    width: 1536px;
-    background-color: aquamarine;
+    height: 800px;
+    width: 1920px;
 }
 .cover_photo_1{
     position: fixed;
     background-image: url(./media/my_cover_photo.png);
     background-size: cover;
-    height: 600px;
-    width: 1536px;
+    height: 800px;
+    width: 1920px;
     
 }
 
@@ -29,23 +28,23 @@
 }
 
 .facebook_link{
-    font-size: 2rem;
+    font-size: 3rem;
     padding-right: 15px;
 }
 .Linked_in_link{
-    font-size: 2rem;
+    font-size: 3rem;
     padding-right: 15px;
 }
 
 .instagram_link{
-    font-size: 2rem;
+    font-size: 3rem;
     padding-right: 15px;
 }
 
 .fa-brands{
     background-color: azure;
-    height: 29px;
-    width: 28px;
+    height: 43px;
+    width: 37px;
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
     border-top-right-radius: 4px;
@@ -61,12 +60,12 @@
     color: white;
 }
 .first_line{
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 .Second_line{
-    font-size: 3rem;
+    font-size: 6rem;
 }
 .third_line{
-    font-size: 0.95rem;
+    font-size: 1.2rem;
     padding-top: 1.2%
 }
