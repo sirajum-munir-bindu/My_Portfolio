@@ -31,6 +31,13 @@ html{
     
 }*/
 
+/*.my_photo{
+    position: relative;
+    left: 50%;
+    height: 400px;
+    width: 300px;
+    background-color: black;
+}*/
 .social_profile{
     display: flex;
     padding-left: 19%;
@@ -71,6 +78,11 @@ html{
 }
 
 .my_intro{
+    /*position: relative;
+    left: 50%;
+    height: 400px;
+    width: 300px;
+    background-color: black;*/
     padding-top: 6%;
     padding-left: 15%;
 }
@@ -186,12 +198,6 @@ html{
     padding-left: 4%;
 }
 
-.location_page{
-    height: 300px;
-    width: 500px;
-    background-color: white;
-}
-
 .form_p1{
     padding-top: 4%;
     padding-bottom: 4%
@@ -233,4 +239,8 @@ html{
 .button1{
     height: 35px;
     width: 575px;
+}
+.location_page{
+    height: 300px;
+    width: 500px;
 }
