@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./style.css">
 </head>
@@ -76,26 +77,18 @@
         </div>
         
         <div class="form" id="contact">
-            <div class="form_page">
+            <form id="form_page" class="form_page1">
                 <h2 class="form_p1">Send me a message</h2>
-                <div class="testing1">
-                    <input type="text" placeholder="Name*" class="form_body">
-                </div>
-                <div class="testing2">
-                    <input type="text" placeholder="E-mail*" class="form_body">
-                </div>
-                <div class="testing3">
-                    <textarea type="text" placeholder="Message*" class="form_msg"></textarea>
-                </div>
-                <div class="form_button">
-                    <button class="button1">Send Message</button>
-                </div>
-            </div>
+                <input type="text" name="name" placeholder="Name*" id="name" class="form_body">
+                <input type="email" name="email" placeholder="E-mail*" id="email" class="form_body">
+                <textarea name="message" placeholder="Message*" id="message" class="form_msg"></textarea>
+                <button type="submit" class="button1">Send Message</button>
+            </form>
             <div class="location_page" class="form_body">
 
             </div>
         </div>
     </div>
-    
+    <script src="./script.js"></script>
 </body>
 </html>
