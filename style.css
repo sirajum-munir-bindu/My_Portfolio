@@ -31,6 +31,7 @@ html{
     
 }*/
 
+
 /*.my_photo{
     position: relative;
     left: 50%;
@@ -260,10 +261,10 @@ html{
     padding-bottom: 25px;
 }
 
-.form{
+/*.form{
     display: flex;
     justify-content: space-evenly;
-}
+}*/
 .form_page1{
     height: 500px;
     width: 700px;
