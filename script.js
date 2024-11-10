@@ -44,3 +44,4 @@ function showStatusMessage(message, color) {
     statusMessageDiv.textContent = message;
     statusMessageDiv.style.color = color;
 }
+

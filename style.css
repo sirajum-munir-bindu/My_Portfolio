@@ -191,6 +191,7 @@ html{
 }
 
 .p1{
+    padding-top: 25px;
     padding-bottom: 5%;
     font-weight: 950;
 }
@@ -219,6 +220,7 @@ html{
 }
 
 .p4{
+    padding-top: 25px;
     padding-bottom: 6%;
     font-weight: 950;
 }
@@ -344,3 +346,4 @@ html{
     70% { width: 100%; } /* Typing Compleate*/
     100%{ width: 100%; } /* For Delay */
 }
+
