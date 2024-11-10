@@ -4,7 +4,7 @@
     border: border-box;
 }
 body{
-    background-color: rgb(244, 239, 232);
+    background-color: rgb(192, 190, 188);
 }
 
 html{
@@ -167,24 +167,35 @@ html{
 
 .info_about{
     display: flex;
-    justify-content: space-evenly;
+    
     padding-left: 5px;
     padding-right: 5px;
 }
 .box1{
     padding-top: 30px;
-    padding-left: 5px;
-    padding-right: 5px;
-    border: 2px solid rgb(184, 183, 183);
-    height: 500px;
-    width: 35%;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    border: 2px solid rgb(147, 147, 147);
+    background-color: rgb(62, 63, 63);
+    height: 550px;
+    width: 30%;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 2%;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 10px 10px 15px rgb(94, 94, 94);
 }
+
 .p1{
-    padding-bottom: 25px;
-    font-weight: 600;
+    padding-bottom: 5%;
+    font-weight: 950;
 }
 .p2{
-    padding-bottom: 10px;
+    padding-bottom: 5%;
 }
 
 .box2{
@@ -193,28 +204,51 @@ html{
     padding-top: 30px;
     padding-left: 5px;
     padding-right: 5px;
-    border: 2px solid rgb(32, 32, 32);
-    height: 500px;
-    width: 35%;
+    color: white;
+    border: 2px solid rgb(147, 147, 147);
+    background-color: rgb(62, 63, 63);
+    height: 550px;
+    width: 30%;
+    margin-top: 2%;
+    margin-right: 2%;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 10px 10px 15px rgb(94, 94, 94);
 }
 
 .p4{
-    padding-bottom: 25px;
-    font-weight: 600;
+    padding-bottom: 6%;
+    font-weight: 950;
+}
+.p5{
+    padding-bottom: 1.5%;
+}
+.p6{
+    padding-bottom: 1.5%;
 }
 
 .box3{
-    padding-top: 10px;
-    padding-left: 5px;
-    padding-right: 5px;
-    border: 2px solid rgb(184, 183, 183);
-    height: 520px;
-    width: 35%;
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    border: 2px solid rgb(147, 147, 147);
+    background-color: rgb(62, 63, 63);
+    height: 550px;
+    width: 30%;
+    margin-top: 2%;
+    margin-right: 2%;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 10px 10px 15px rgb(94, 94, 94);
 }
-
 .p8{
     padding-top: 25px;
-    font-weight: 600;
+    font-weight: 950;
 }
 .p9{
     padding-top: 10px;
