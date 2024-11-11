@@ -261,16 +261,22 @@ html{
     padding-bottom: 25px;
 }
 
-/*.form{
+.form{
     display: flex;
     justify-content: space-evenly;
-}*/
+    padding-bottom: 3%;
+}
 .form_page1{
     height: 500px;
-    width: 700px;
+    width: 650px;
     background-color: white;
     border: 2px solid black;
     padding-left: 4%;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 10px 10px 15px rgb(94, 94, 94);
 }
 
 .form_p1{
@@ -310,14 +316,20 @@ html{
 }
 .form_button{
     padding-top: 3%;
+    display: flex;
+    justify-content: center;
 }
 .button1{
-    height: 35px;
-    width: 575px;
-}
-.location_page{
-    height: 300px;
-    width: 500px;
+    height: 50px;
+    width: 300px;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-right: 9%;
+    background-color: rgb(156, 154, 154);
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
 
 .third_line{
@@ -348,3 +360,68 @@ html{
     100%{ width: 100%; } /* For Delay */
 }
 
+.found_me{
+    height: 450px;
+    width: 400px;
+    padding-top: 2%;
+    padding-left: 2%;
+    background-color: white;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 10px 10px 15px rgb(94, 94, 94);
+}
+
+.me1{
+    padding-bottom: 25px;
+}
+.me_container{
+    display: flex;
+}
+.me_phone{
+    padding-left: 3%;
+}
+.me_number{
+    padding-left: 7.5%;
+    padding-top: 1%;
+    padding-bottom: 3%;
+}
+.me_container2{
+    display: flex;
+}
+
+.me_address{
+    padding-left: 3%;
+}
+.me_location{
+    padding-left: 7.5%;
+    padding-top: 1%;
+    padding-bottom: 3%;
+}
+.me_container3{
+    display: flex;
+}
+.me_email{
+    padding-left: 3%;
+}
+.me_email_ad{
+    padding-left: 7.5%;
+    padding-top: 1%;
+    padding-bottom: 3%;
+}
+
+.google_map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.location_text{
+    padding-left: 45%;
+    font-weight: 900;
+    padding-bottom: 1%;
+}
+.logation_page2{
+    height: 500px;
+    width: 1700px;
+}
