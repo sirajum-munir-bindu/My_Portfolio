@@ -261,10 +261,27 @@ html{
     padding-bottom: 25px;
 }
 
+
+.project_text{
+    padding-top: 5%;
+    padding-left: 45%;
+    padding-bottom: 2%;
+}
+.project_show{
+    display: flex;
+    justify-content: center;
+}
+.project_link{
+    width: 1400px;
+    height: 600px;
+}
+
+
 .form{
     display: flex;
     justify-content: center;
     padding-bottom: 3%;
+    padding-top: 5%;
 }
 .form_page1{
     height: 500px;
